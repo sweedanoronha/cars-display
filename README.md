@@ -1,24 +1,58 @@
-# cars-display
+🚗 cars-display
+A responsive car model reel built using Next.js 14's App Router, featuring horizontal scroll, dynamic routing, and accessibility support.
 
-Data fetching for a reel component using Next.js 14's App Router
+📦 Features
+Dynamic Data Fetching for car models
 
-ProductListReelFrame component
-Arrow buttons to scroll the reel left and right which reside in the ProductListReel component
-Unit tests using a testing library of your choice
-Notes
-Try to implement as many of the requirements as possible within the time frame.
-Try to focus on achieving the base functionality first, followed by what parts you feel is most important for good quality code.
-Submit the test even if not all task are fully finished.
-ProductListReelFrame component
-Styled to match the provided design
-Every frame should link to its respective car model page /cars/model-name
-The frame should display the car model name and image
-The "Learn" and "Shop" links should be present and link to /learn/model-name and /shop/model-name respectively
-Requirements
-Accessibility is important.
-Code Structure and reusability is important.
-Use Volvo Cars design system - link
-The data required to render the design should be fetched by the application from here and looks like this:
+ProductListReelFrame component styled according to provided designs
+
+Arrow Buttons to scroll left/right (in ProductListReel component)
+
+Responsive Layout for desktop and mobile
+
+Routing to Car Pages:
+
+/cars/[model-name] for car details
+
+/learn/[model-name] and /shop/[model-name] links within each frame
+
+Unit Tests using your preferred testing library
+
+Accessible & Reusable component structure
+
+🧱 Components
+ProductListReelFrame
+Displays:
+
+Car model name
+
+Car image
+
+"Learn" and "Shop" links
+
+Routes:
+
+/cars/model-name
+
+/learn/model-name
+
+/shop/model-name
+
+Matches the provided design specs
+
+ProductListReel
+Contains:
+
+Horizontal scrolling logic
+
+Left/right arrow buttons
+
+📊 Data Source
+The data is fetched from a JSON API that returns an array like:
+
+json
+Copy
+Edit
 [
   {
     "id": "xc90-recharge",
@@ -30,15 +64,29 @@ The data required to render the design should be fetched by the application from
   },
   ...
 ]
-Assumptions
-Browser support is modern ever-green browsers.
-Examples of the reel component
-Product List Frame
-product-list-frame
+🧪 Testing
+Unit tests are included using a testing library of your choice (e.g., Jest, React Testing Library).
 
-Desktop version
-reel-component-desktop
+Focused on core functionality and accessibility.
 
-Mobile version
-reel-component-mobile
+🎯 Goals & Notes
+Implement as many requirements as possible within the given time.
 
+Prioritize:
+
+Base functionality
+
+Code quality
+
+Design fidelity
+
+Submit even if not all tasks are fully complete.
+
+✅ Requirements
+Modern, evergreen browser support
+
+Accessibility is key
+
+Well-structured, reusable code
+
+Use the Volvo Cars Design System where applicable
