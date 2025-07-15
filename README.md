@@ -1,7 +1,10 @@
-🚗 cars-display
+# 🚗 cars-display
+
+
 A responsive car model reel built using Next.js 14's App Router, featuring horizontal scroll, dynamic routing, and accessibility support.
 
-📦 Features
+# 📦 Features
+
 Dynamic Data Fetching for car models
 
 ProductListReelFrame component styled according to provided designs
@@ -20,7 +23,8 @@ Unit Tests using your preferred testing library
 
 Accessible & Reusable component structure
 
-🧱 Components
+# 🧱 Components
+
 ProductListReelFrame
 Displays:
 
@@ -47,7 +51,8 @@ Horizontal scrolling logic
 
 Left/right arrow buttons
 
-📊 Data Source
+# 📊 Data Source
+
 The data is fetched from a JSON API that returns an array like:
 
 json
@@ -64,12 +69,15 @@ Edit
   },
   ...
 ]
-🧪 Testing
+
+# 🧪 Testing
+
 Unit tests are included using a testing library of your choice (e.g., Jest, React Testing Library).
 
 Focused on core functionality and accessibility.
 
-🎯 Goals & Notes
+# 🎯 Goals & Notes
+
 Implement as many requirements as possible within the given time.
 
 Prioritize:
@@ -82,7 +90,8 @@ Design fidelity
 
 Submit even if not all tasks are fully complete.
 
-✅ Requirements
+# ✅ Requirements
+
 Modern, evergreen browser support
 
 Accessibility is key
